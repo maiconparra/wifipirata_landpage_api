@@ -1,9 +1,5 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const api_1 = __importDefault(require("./api"));
-api_1.default.listen('3334', () => {
+"use strict"; function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }var _api = require('./api'); var _api2 = _interopRequireDefault(_api);
+
+_api2.default.listen('3334', () => {
     console.log('Api iniciada');
-});
+}); 

@@ -1,5 +1,1 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Contato = void 0;
-var contato_model_1 = require("./contato.model");
-Object.defineProperty(exports, "Contato", { enumerable: true, get: function () { return contato_model_1.Contato; } });
+"use strict";Object.defineProperty(exports, "__esModule", {value: true}); function _createNamedExportFrom(obj, localName, importedName) { Object.defineProperty(exports, localName, {enumerable: true, configurable: true, get: () => obj[importedName]}); }var _contatomodel = require('./contato.model'); _createNamedExportFrom(_contatomodel, 'Contato', 'Contato'); 
