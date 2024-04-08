@@ -24,9 +24,9 @@ class App {
         if (process.env.NODE_ENVIRONMENT === 'development') 
             this.express.use(cors());
         if (process.env.NODE_ENVIRONMENT === 'homolog')
-            this.express.use(cors({ origin: ['http://localhost:5173/', 'https://www.wifipirata.com.br'] }));
+            this.express.use(cors({ origin: ['http://localhost:5173/', 'https://wifipirata.com.br'] }));
         if (process.env.NODE_ENVIRONMENT === 'production') 
-            this.express.use(cors({ origin: ['https://www.wifipirata.com.br'] }));
+            this.express.use(cors({ origin: ['https://wifipirata.com.br'] }));
     }
 
     private routes(): void {
